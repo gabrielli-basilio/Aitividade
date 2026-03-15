@@ -109,6 +109,22 @@ section p {
 .card2 { background: #e1ffe4; border-color: #80c9a0; }
 .card3 { background: #e1ecff; border-color: #90a8f4; }
 
+.card::before {
+    content: "⟡ ⟡ ⟡";
+    display: block;
+    font-size: 0.75rem;
+    margin-top: 3px;
+    color: #dca717;
+}
+
+.card::after {
+    content: "---- ✦ ----";
+    display: block;
+    font-size: 0.75rem;
+    margin-top: 1px;
+    color: #dca717;
+}
+
 /* Rodapé */
 footer {
   grid-area: footer; /* posiciona no grid */
