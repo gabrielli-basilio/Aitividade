@@ -56,6 +56,12 @@ aside li {
     border-left: 3px solid transparent;
 }
 
+aside li:hover {
+    border-left-color: #f0c040;
+    color: #f0c040;   
+    cursor: pointer;
+}
+
 /* conteúdo principal */
 main {
     min-height: 100%;
